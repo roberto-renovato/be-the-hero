@@ -28,7 +28,7 @@ export default function NewIncident() {
                     <input placeholder="Valor em reais" />
 
                     <div className="button-group">
-                        <button className="button" type="submit">Cancelar</button>
+                        <Link className="button" to="/profile">Cancelar</Link>
                         <button className="button" type="submit">Cadastrar</button>
                     </div>
                 </form>

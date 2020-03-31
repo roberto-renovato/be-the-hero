@@ -53,7 +53,7 @@
     gap: 8px; 
 }
 
-.new-incident-container .content form .button-group button:first-child {
+.new-incident-container .content form .button-group a.button {
     color: #41414d;
     border: 1px solid #dcdce6;
     background: transparent;
