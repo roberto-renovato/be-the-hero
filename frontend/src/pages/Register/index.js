@@ -30,7 +30,7 @@ export default function Register() {
         try {
             const response = await api.post('ongs', data);
 
-            alert(response.data.id);
+            alert(`Sua nova ID: ${response.data.id}`);
 
             history.push('/');
         } catch (error) {
